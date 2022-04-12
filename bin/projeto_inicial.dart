@@ -4,8 +4,11 @@ void main() {
   bool geek = true;
   bool isIgual =
       (idade == altura); // é possível verificar condições dentro de variáveis
-  print("Sua altura: $altura\n" +
-      "Sua idade: $idade\n" +
-      "Sua idade é igual sua altura? $isIgual\n"
-          "Você é geek? $geek");
+  String nome = 'Ádrian';
+  String apelido = 'Rabelo';
+  String frase = "Eu sou $nome meu apelido é $apelido\n" +
+      "Minha altura é $altura, tenho $idade anos\n" +
+      "Me considero geek? $geek\n"
+          "Sua idade é igual sua altura? $isIgual";
+  print(frase);
 }
