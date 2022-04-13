@@ -31,6 +31,10 @@ void main() {
     maiorDeIdade = false;
   }
 
+  for (int i=1;i<8;i++) {
+    print('Concluí $i voltas');
+  }
+
   String frase2 = "Eu sou ${adrame[3]} meu apelido é ${adrame[4]}\n" +
       "Minha altura é ${adrame[1]}, tenho ${adrame[0]} anos\n" +
       "Me considero geek? ${adrame[2]}\n"
