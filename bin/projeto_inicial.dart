@@ -4,7 +4,7 @@ void main() {
   bool geek = true;
   bool isIgual =
       (idade == altura); // é possível verificar condições dentro de variáveis
-  String nome = 'Ádrian';
+  const String nome = 'Ádrian';
   String apelido = 'Rabelo';
   String frase = "Eu sou $nome meu apelido é $apelido\n" +
       "Minha altura é $altura, tenho $idade anos\n" +
@@ -20,7 +20,8 @@ void main() {
     'André',
   ];
 
-  List<dynamic> adrame = [20, 1.71, true, 'Ádrian', 'Rabelo'];
+  List<dynamic> adrame = [idade, altura, geek, nome, apelido];
+  print(idade);
 
   String frase2 = "Eu sou ${adrame[3]} meu apelido é ${adrame[4]}\n" +
       "Minha altura é ${adrame[1]}, tenho ${adrame[0]} anos\n" +
