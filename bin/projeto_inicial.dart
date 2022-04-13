@@ -5,6 +5,8 @@ void main() {
   bool isIgual =
       (idade == altura); // é possível verificar condições dentro de variáveis
   const String nome = 'Ádrian';
+  bool maiorDeIdade;
+
   String apelido = 'Rabelo';
   String frase = "Eu sou $nome meu apelido é $apelido\n" +
       "Minha altura é $altura, tenho $idade anos\n" +
@@ -23,8 +25,15 @@ void main() {
   List<dynamic> adrame = [idade, altura, geek, nome, apelido];
   print(idade);
 
+  if (idade >= 18) {
+    maiorDeIdade = true;
+  } else {
+    maiorDeIdade = false;
+  }
+
   String frase2 = "Eu sou ${adrame[3]} meu apelido é ${adrame[4]}\n" +
       "Minha altura é ${adrame[1]}, tenho ${adrame[0]} anos\n" +
-      "Me considero geek? ${adrame[2]}\n";
+      "Me considero geek? ${adrame[2]}\n"
+      "Eu sou maior de idade? $maiorDeIdade";
   print(frase2);
 }
