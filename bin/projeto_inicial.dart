@@ -50,5 +50,7 @@ void main() {
       "Minha altura é ${adrame[1]}, tenho ${adrame[0]} anos\n" +
       "Me considero geek? ${adrame[2]}\n"
           "Eu sou maior de idade? $maiorDeIdade";
+
+  // TODO: Fazer outras Personas da equipe Mobile
   print(frase2);
 }
