@@ -1,6 +1,6 @@
 void main() {
   int idade = 20;
-  double altura = 1.71; // -> significa 780 elevado à sexta potência
+  double altura = 1.71; // -> significa 780e6 elevado à sexta potência
   bool geek = true;
   bool isIgual =
       (idade == altura); // é possível verificar condições dentro de variáveis
